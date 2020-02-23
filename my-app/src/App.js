@@ -1,13 +1,24 @@
 import React from "react";
 import Books from "./pages/Books";
-import Nav from "./components/Nav";
+import Search from "./pages/Search";
+import Saved from "./pages/Saved";
+import Header from "./components/Header";
+//import SearchBtn from "./components/SearchBtn";
+//import ViewBtn from "./components/ViewBtn";
+//import DeleteBtn from "./components/DeleteBtn";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Books />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Wrapper>
+          <Route exact path="/books" component={Books} />
+          <Route exact path="/search" component={Search} />
+          <Route exact path="/saved" component={Saved} />
+        </Wrapper>
+      </div>
+    </Router>
   );
 }
 
