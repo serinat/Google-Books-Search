@@ -1,16 +1,18 @@
 import React from "react";
+import Jumbotron from "../components/Jumbotron";
+
 //import SearchBtn from "./components/SearchBtn";
 //import ViewBtn from "./components/ViewBtn";
 
 function Search() {
     return (
-        <div>
+
+        <Jumbotron>
+            <h1 class="display-4">(React) Google Books Search</h1>
+            <p class="lead">Search for and save books of interest</p>
+
             
-                <h1>Book Search</h1>
-                    <h1>Results</h1>
-                    
-           
-        </div>
+        </Jumbotron>
     )
 }
 
