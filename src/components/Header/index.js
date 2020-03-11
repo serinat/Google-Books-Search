@@ -14,7 +14,7 @@ function Header() {
             <Link
               to="/search"
               className={
-                window.location.pathname === "/search" || window.location.pathname === "/search"
+                window.location.pathname === "/" || window.location.pathname === "/search"
                   ? "nav-link active"
                   : "nav-link"
               }
