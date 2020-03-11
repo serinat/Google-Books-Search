@@ -59,5 +59,9 @@ Deploy your application to Heroku once complete. You must use Create React App a
 
 ![Demo1](demos/21-MERN_02-Homework_Saved.png)
 ![Demo2](demos/21-MERN_02-Homework_Search.png)
+<<<<<<< HEAD
 
 ## Deployed link: https://whispering-sands-36583.herokuapp.com/
+=======
+>>>>>>> d151d76e2c7b63aad89e57448d4a0a17f3252778
+>>>>>>> 15b2a582a9f584f2effbf29d3323e1a6672d204f
